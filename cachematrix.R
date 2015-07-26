@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCacheMatrix caches the inverse of the x matrix
+## as well as the original
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse_x <- NULL
@@ -19,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## cacheSolve takes the cached matrix from MakeCacheMatrix
+## and calculated the inverse and then cashes that also
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
